@@ -8,7 +8,7 @@ export default function Main() {
                 {/* TODAY NEWS */}
                 <div>Today</div>
                 {/* TOP NEWS */}
-                <div>Top News</div>
+                <div>ToOp News</div>
             </div>
        </>
     );
