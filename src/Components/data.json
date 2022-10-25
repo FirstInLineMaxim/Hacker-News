@@ -1,0 +1,786 @@
+{
+    "hits": [
+        {
+            "created_at": "2022-10-25T15:11:15.000Z",
+            "title": "An open source client for Xbox home streaming",
+            "url": "https://github.com/unknownskl/xbox-xcloud-client",
+            "author": "tosh",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710675,
+            "_tags": [
+                "story",
+                "author_tosh",
+                "story_33331638"
+            ],
+            "objectID": "33331638",
+            "_highlightResult": {
+                "title": {
+                    "value": "An open source client for Xbox home streaming",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://github.com/unknownskl/xbox-xcloud-client",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "tosh",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T15:10:47.000Z",
+            "title": "Charts that shed new light on how people charge EVs at home",
+            "url": "https://www.canarymedia.com/articles/ev-charging/5-charts-that-shed-new-light-on-how-people-charge-evs-at-home",
+            "author": "orangebanana1",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710647,
+            "_tags": [
+                "story",
+                "author_orangebanana1",
+                "story_33331629"
+            ],
+            "objectID": "33331629",
+            "_highlightResult": {
+                "title": {
+                    "value": "Charts that shed new light on how people charge EVs at home",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://www.canarymedia.com/articles/ev-charging/5-charts-that-shed-new-light-on-how-people-charge-evs-at-home",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "orangebanana1",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T15:10:01.000Z",
+            "title": "Fatal Fungi Threaten Global Health, WHO Says",
+            "url": "https://www.wsj.com/articles/fatal-fungi-threaten-global-health-who-says-11666708805",
+            "author": "arbuge",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710601,
+            "_tags": [
+                "story",
+                "author_arbuge",
+                "story_33331616"
+            ],
+            "objectID": "33331616",
+            "_highlightResult": {
+                "title": {
+                    "value": "Fatal Fungi Threaten Global Health, WHO Says",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://www.wsj.com/articles/fatal-fungi-threaten-global-health-who-says-11666708805",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "arbuge",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T15:08:18.000Z",
+            "title": "AWS Serverless Messaging: Latency Compared",
+            "url": "https://bitesizedserverless.com/bite/serverless-messaging-latency-compared/",
+            "author": "cebert",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710498,
+            "_tags": [
+                "story",
+                "author_cebert",
+                "story_33331589"
+            ],
+            "objectID": "33331589",
+            "_highlightResult": {
+                "title": {
+                    "value": "AWS Serverless Messaging: Latency Compared",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://bitesizedserverless.com/bite/serverless-messaging-latency-compared/",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "cebert",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T15:08:17.000Z",
+            "title": "Is AI art good or bad? In two months we were able to build and animate a comic",
+            "url": "https://www.daedalus.am/",
+            "author": "daveranan",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 1,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710497,
+            "_tags": [
+                "story",
+                "author_daveranan",
+                "story_33331587"
+            ],
+            "objectID": "33331587",
+            "_highlightResult": {
+                "title": {
+                    "value": "Is AI art good or bad? In two months we were able to build and animate a comic",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://www.daedalus.am/",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "daveranan",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T15:08:04.000Z",
+            "title": "Directed Acyclic Graph (DAG) Scheduler Library",
+            "url": "https://mindee.com/blog/directed-acyclic-graph-dag-scheduler-library/",
+            "author": "MorlaT",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710484,
+            "_tags": [
+                "story",
+                "author_MorlaT",
+                "story_33331585"
+            ],
+            "objectID": "33331585",
+            "_highlightResult": {
+                "title": {
+                    "value": "Directed Acyclic Graph (DAG) Scheduler Library",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://mindee.com/blog/directed-acyclic-graph-dag-scheduler-library/",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "MorlaT",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T15:06:12.000Z",
+            "title": "Zig Is Self-Hosted Now, What's Next?",
+            "url": "https://kristoff.it/blog/zig-self-hosted-now-what/",
+            "author": "kristoff_it",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710372,
+            "_tags": [
+                "story",
+                "author_kristoff_it",
+                "story_33331549"
+            ],
+            "objectID": "33331549",
+            "_highlightResult": {
+                "title": {
+                    "value": "Zig Is Self-Hosted Now, What's Next?",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://kristoff.it/blog/zig-self-hosted-now-what/",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "kristoff_it",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T15:05:36.000Z",
+            "title": "Q\u0026A: Arduino Founder Massimo Banzi",
+            "url": "https://www.helsinkitimes.fi/business/22390-q-a-arduino-founder-massimo-banzi.html",
+            "author": "pyprism",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710336,
+            "_tags": [
+                "story",
+                "author_pyprism",
+                "story_33331536"
+            ],
+            "objectID": "33331536",
+            "_highlightResult": {
+                "title": {
+                    "value": "Q\u0026A: Arduino Founder Massimo Banzi",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://www.helsinkitimes.fi/business/22390-q-a-arduino-founder-massimo-banzi.html",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "pyprism",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T15:04:18.000Z",
+            "title": "Contrafreeloading",
+            "url": "https://en.wikipedia.org/wiki/Contrafreeloading",
+            "author": "losfair",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710258,
+            "_tags": [
+                "story",
+                "author_losfair",
+                "story_33331510"
+            ],
+            "objectID": "33331510",
+            "_highlightResult": {
+                "title": {
+                    "value": "Contrafreeloading",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://en.wikipedia.org/wiki/Contrafreeloading",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "losfair",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T15:02:07.000Z",
+            "title": "Cypress Tests Parallelization in Gitlab CI",
+            "url": "https://medium.com/eqs-tech-blog/cypress-tests-parallelization-with-x-server-in-gitlab-ci-3482dd2e1709",
+            "author": "travib",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710127,
+            "_tags": [
+                "story",
+                "author_travib",
+                "story_33331469"
+            ],
+            "objectID": "33331469",
+            "_highlightResult": {
+                "title": {
+                    "value": "Cypress Tests Parallelization in Gitlab CI",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://medium.com/eqs-tech-blog/cypress-tests-parallelization-with-x-server-in-gitlab-ci-3482dd2e1709",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "travib",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T15:00:11.000Z",
+            "title": "Ask HN: What Happened to Instant Messengers?",
+            "url": null,
+            "author": "aliqot",
+            "points": 1,
+            "story_text": "These days we\u0026#x27;re all on services that more or less look\u0026#x2F;act the same, whether it be IRCCloud, Discord, Slack, etc. We no longer run a little program with a simple list of people you could message directly or put into groups.\u003cp\u003eMy question is, is this a social phenomenon, or is the grouped chats UI paradigm objectively superior than the buddylist model?\u003cp\u003eIs that UI paradigm dead, if so, why do phone UI\u0026#x27;s still use the buddylist-\u0026gt;conversation UI model?\u003cp\u003eIs it because we moved from one-to-one to one-to-many? If so, why didn\u0026#x27;t chat rooms kill the Instant Messenger UI in its infancy?",
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666710011,
+            "_tags": [
+                "story",
+                "author_aliqot",
+                "story_33331434",
+                "ask_hn"
+            ],
+            "objectID": "33331434",
+            "_highlightResult": {
+                "title": {
+                    "value": "Ask HN: What Happened to Instant Messengers?",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "aliqot",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "story_text": {
+                    "value": "These days we're all on services that more or less look/act the same, whether it be IRCCloud, Discord, Slack, etc. We no longer run a little program with a simple list of people you could message directly or put into groups.\u003cp\u003eMy question is, is this a social phenomenon, or is the grouped chats UI paradigm objectively superior than the buddylist model?\u003cp\u003eIs that UI paradigm dead, if so, why do phone UI's still use the buddylist-\u0026gt;conversation UI model?\u003cp\u003eIs it because we moved from one-to-one to one-to-many? If so, why didn't chat rooms kill the Instant Messenger UI in its infancy?",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T14:58:33.000Z",
+            "title": "Stop Writing Twitter Threads",
+            "url": "https://pierre.equoy.fr/blog/posts/2022/10/stop-writing-twitter-threads/",
+            "author": "sebst",
+            "points": 3,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666709913,
+            "_tags": [
+                "story",
+                "author_sebst",
+                "story_33331403"
+            ],
+            "objectID": "33331403",
+            "_highlightResult": {
+                "title": {
+                    "value": "Stop Writing Twitter Threads",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://pierre.equoy.fr/blog/posts/2022/10/stop-writing-twitter-threads/",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "sebst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T14:57:48.000Z",
+            "title": "Deepfakes of Celebrities Have Begun Appearing in Ads, with or Without Permission",
+            "url": "https://www.wsj.com/articles/deepfakes-of-celebrities-have-begun-appearing-in-ads-with-or-without-their-permission-11666692003",
+            "author": "gnicholas",
+            "points": 3,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666709868,
+            "_tags": [
+                "story",
+                "author_gnicholas",
+                "story_33331392"
+            ],
+            "objectID": "33331392",
+            "_highlightResult": {
+                "title": {
+                    "value": "Deepfakes of Celebrities Have Begun Appearing in Ads, with or Without Permission",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://www.wsj.com/articles/deepfakes-of-celebrities-have-begun-appearing-in-ads-with-or-without-their-permission-11666692003",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "gnicholas",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T14:57:31.000Z",
+            "title": "Online JavaScript Compiler",
+            "url": "https://playcode.io/javascript-online",
+            "author": "ianberdin",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666709851,
+            "_tags": [
+                "story",
+                "author_ianberdin",
+                "story_33331384"
+            ],
+            "objectID": "33331384",
+            "_highlightResult": {
+                "title": {
+                    "value": "Online JavaScript Compiler",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://playcode.io/javascript-online",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "ianberdin",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T14:57:24.000Z",
+            "title": "How I built the HN Notifier Chrome extension without hammering their API",
+            "url": "https://engagespot.co/blog/building-chrome-extension-send-hackernews-notifications",
+            "author": "engagespot",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666709844,
+            "_tags": [
+                "story",
+                "author_engagespot",
+                "story_33331378"
+            ],
+            "objectID": "33331378",
+            "_highlightResult": {
+                "title": {
+                    "value": "How I built the HN Notifier Chrome extension without hammering their API",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://engagespot.co/blog/building-chrome-extension-send-hackernews-notifications",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "engagespot",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T14:57:24.000Z",
+            "title": "Ask HN: What is “Hello World” for online marketing?",
+            "url": null,
+            "author": "takinola",
+            "points": 1,
+            "story_text": "I\u0026#x27;m trying to learn how to be reasonably good at online marketing so I\u0026#x27;ve read all the books and the blog posts but I need to actually do it to be sure I know how. However, I don\u0026#x27;t have anything I want to market so what\u0026#x27;s a practical way to get some practice and level up my skills?",
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666709844,
+            "_tags": [
+                "story",
+                "author_takinola",
+                "story_33331377",
+                "ask_hn"
+            ],
+            "objectID": "33331377",
+            "_highlightResult": {
+                "title": {
+                    "value": "Ask HN: What is “Hello World” for online marketing?",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "takinola",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "story_text": {
+                    "value": "I'm trying to learn how to be reasonably good at online marketing so I've read all the books and the blog posts but I need to actually do it to be sure I know how. However, I don't have anything I want to market so what's a practical way to get some practice and level up my skills?",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T14:55:41.000Z",
+            "title": "Testing Libraries for the Decentralized Web",
+            "url": "https://httptoolkit.com/blog/decentralized-web-testing-libraries/",
+            "author": "carride",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666709741,
+            "_tags": [
+                "story",
+                "author_carride",
+                "story_33331343"
+            ],
+            "objectID": "33331343",
+            "_highlightResult": {
+                "title": {
+                    "value": "Testing Libraries for the Decentralized Web",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://httptoolkit.com/blog/decentralized-web-testing-libraries/",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "carride",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T14:54:25.000Z",
+            "title": "Ask HN: Is there a site to find good code examples?",
+            "url": null,
+            "author": "eaplant",
+            "points": 1,
+            "story_text": "Frequently I would like to find an example of a project using a framework\u0026#x2F;language\u0026#x2F;package well. Sometimes live examples are more helpful than reading the docs because a good example has all of the context and imports that docs frequently ignore. Stack overflow similarly does not include enough context to make larger decisions.\u003cp\u003eSome queries this site might answer:\u003cp\u003e- “find a react project that uses jest to test responsive layouts”\u003cp\u003e- “find a Ruby on Rails project that uses transactions in a query on an SQLite DB”\u003cp\u003eDoes a site like this exist? If not, what features would you want from it were I to build it?\u003cp\u003eInspired by this post: https:\u0026#x2F;\u0026#x2F;news.ycombinator.com\u0026#x2F;item?id=33329079",
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666709665,
+            "_tags": [
+                "story",
+                "author_eaplant",
+                "story_33331318",
+                "ask_hn"
+            ],
+            "objectID": "33331318",
+            "_highlightResult": {
+                "title": {
+                    "value": "Ask HN: Is there a site to find good code examples?",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "eaplant",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "story_text": {
+                    "value": "Frequently I would like to find an example of a project using a framework/language/package well. Sometimes live examples are more helpful than reading the docs because a good example has all of the context and imports that docs frequently ignore. Stack overflow similarly does not include enough context to make larger decisions.\u003cp\u003eSome queries this site might answer:\u003cp\u003e- “find a react project that uses jest to test responsive layouts”\u003cp\u003e- “find a Ruby on Rails project that uses transactions in a query on an SQLite DB”\u003cp\u003eDoes a site like this exist? If not, what features would you want from it were I to build it?\u003cp\u003eInspired by this post: https://news.ycombinator.com/item?id=33329079",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T14:54:15.000Z",
+            "title": "EaseUS Partition Master Registration Key 17.0.0 and Crack – Software Fix",
+            "url": "https://softzfix.com/easeus-partition-master-registration-key-17-0-0-crack/",
+            "author": "jenrobbert89",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666709655,
+            "_tags": [
+                "story",
+                "author_jenrobbert89",
+                "story_33331311"
+            ],
+            "objectID": "33331311",
+            "_highlightResult": {
+                "title": {
+                    "value": "EaseUS Partition Master Registration Key 17.0.0 and Crack – Software Fix",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://softzfix.com/easeus-partition-master-registration-key-17-0-0-crack/",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "jenrobbert89",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        },
+        {
+            "created_at": "2022-10-25T14:54:02.000Z",
+            "title": "Scaling Product Integrations",
+            "url": "https://www.blendededge.com/blog/scaling-product-integrations-how-everyone-on-the-team-helps",
+            "author": "winkle",
+            "points": 1,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 0,
+            "story_id": null,
+            "story_title": null,
+            "story_url": null,
+            "parent_id": null,
+            "created_at_i": 1666709642,
+            "_tags": [
+                "story",
+                "author_winkle",
+                "story_33331303"
+            ],
+            "objectID": "33331303",
+            "_highlightResult": {
+                "title": {
+                    "value": "Scaling Product Integrations",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "url": {
+                    "value": "https://www.blendededge.com/blog/scaling-product-integrations-how-everyone-on-the-team-helps",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "author": {
+                    "value": "winkle",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            }
+        }
+    ],
+    "nbHits": 2169252,
+    "page": 0,
+    "nbPages": 50,
+    "hitsPerPage": 20,
+    "exhaustiveNbHits": false,
+    "exhaustiveTypo": true,
+    "exhaustive": {
+        "nbHits": false,
+        "typo": true
+    },
+    "query": "",
+    "params": "advancedSyntax=true\u0026analytics=true\u0026analyticsTags=backend\u0026tags=story",
+    "processingTimeMS": 3,
+    "processingTimingsMS": {
+        "afterFetch": {
+            "total": 3
+        },
+        "total": 4
+    }
+}
