@@ -4,7 +4,6 @@ import Main from './Components/Main';
 function App() {
   return (
     <>
-
           {/* HEADER */}
           <div>Header</div>
           {/* MAIN */}

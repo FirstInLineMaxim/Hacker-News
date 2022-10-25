@@ -5,7 +5,6 @@ export default function Main() {
     return (
        <>
             <div className='container'>
-                <p>Main</p>
                 {/* TODAY NEWS */}
                 <div>Today</div>
                 {/* TOP NEWS */}
