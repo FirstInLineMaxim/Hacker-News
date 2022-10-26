@@ -12,10 +12,15 @@ export default function NewsArticle() {
     //         .then(data => setData(data))
     // },[])
     const { hits } = myData;
+    const { hitstest } = myData;
+
+    
     // myData
 
     return (
         <>
+            {/* {hitstest.map((hit) =>(<ol><li>{hit.title}</li></ol>) )} */}
+
             {hits ? <ol className='ordered_list'>
                 {hits.map((hit) => (
 
@@ -40,8 +45,6 @@ export default function NewsArticle() {
                 <h2>Loading...</h2></div>
             }
 
-            {/* <h1>{chuck.value}</h1>
-    <img src={chuck.icon_url} alt="" /> */}
 
 
         </>
