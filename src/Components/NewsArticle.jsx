@@ -34,22 +34,22 @@ export default function NewsArticle() {
             {/* MUI IMPORTED */}
             <TextField onChange={handleChange} id="standard-basic" label="Search" variant="standard" />
             <Autocomplete
-        freeSolo
-        id="free-solo-2-demo"
-        disableClearable
-        options={hits.map((option) => option.title)}
-        renderInput={(params) => (
-          <TextField
-          onChange={handleChange}
-            {...params}
-            label="Search input"
-            InputProps={{
-              ...params.InputProps,
-              type: 'search',
-            }}
-          />
-        )}
-      />
+                freeSolo
+                id="free-solo-2-demo"
+                disableClearable
+                options={hits.map((option) => option.title)}
+                renderInput={(params) => (
+                    <TextField
+                        onChange={handleChange}
+                        {...params}
+                        label="Search input"
+                        InputProps={{
+                            ...params.InputProps,
+                            type: 'search',
+                        }}
+                    />
+                )}
+            />
             <List >
                 {hits.map((hit) => (
                     hit.title.toLowerCase().includes(`${search}`) ?
