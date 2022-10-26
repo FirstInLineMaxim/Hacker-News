@@ -11,7 +11,7 @@ export default function NewsArticle() {
     //     	.then(res => res.json())
     //         .then(data => setData(data))
     // },[])
-    const { hits } = false;
+    const { hits } = myData;
     // myData
 
     return (
@@ -27,7 +27,7 @@ export default function NewsArticle() {
                         <div className='description'>
                             <p>Author: {hit.author}</p>
                             <p>Created: {hit.created_at.slice(0, 10)}</p>                {/*Cuts date till 10 digits*/}
-                            {hit._tags.map(tag => (<p>Tag: {tag}</p>))}                  {/*creates Tags*/}
+                            {/* {hit._tags.map(tag => (<p>Tag: {tag}</p>))}                  creates Tags */}
                         </div>
                     </div>
                     </li>
@@ -35,7 +35,9 @@ export default function NewsArticle() {
                 ))}
             </ol>
                 :
-                <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                <div className='center-loading'>
+                <span class="loader"></span>
+                <h2>Loading...</h2></div>
             }
 
             {/* <h1>{chuck.value}</h1>
