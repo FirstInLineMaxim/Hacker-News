@@ -16,8 +16,7 @@ export default function NewsArticle() {
 
     return (
         <>
-        {hits ? "hello": "no"}
-            <ol className='ordered_list'>
+            {hits ? <ol className='ordered_list'>
                 {hits.map((hit) => (
 
                     <li><div className='Article-container'>
@@ -27,14 +26,18 @@ export default function NewsArticle() {
                         </div>
                         <div className='description'>
                             <p>Author: {hit.author}</p>
-                            <p>Created: {hit.created_at.slice(0,10)}</p>                {/*Cuts date till 10 digits*/}
-                            {hit._tags.map(tag =>(<p>Tag: {tag}</p>))}                  {/*creates Tags*/}
+                            <p>Created: {hit.created_at.slice(0, 10)}</p>                {/*Cuts date till 10 digits*/}
+                            {hit._tags.map(tag => (<p>Tag: {tag}</p>))}                  {/*creates Tags*/}
                         </div>
                     </div>
                     </li>
 
                 ))}
             </ol>
+                :
+                <h2>Loading...</h2>
+            }
+
             {/* <h1>{chuck.value}</h1>
     <img src={chuck.icon_url} alt="" /> */}
 
