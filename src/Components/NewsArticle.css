@@ -1,5 +1,5 @@
 .Article-container{
-    background-color: antiquewhite;
+    background-color:#f6f5f0;
     display:flex;
     flex-direction: column;
 }
@@ -19,6 +19,7 @@ height: fit-content;
 .description{
     display: flex;
     gap:2rem;
+    color:grey;
 }
 .ordered_list li{
     counter-increment: li;

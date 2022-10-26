@@ -26,8 +26,8 @@ export default function NewsArticle() {
                         </div>
                         <div className='description'>
                             <p>Author: {hit.author}</p>
-                            <p>Created: {hit.created_at.slice(0,10)}</p>
-                            <p>{hit._tags.map(tag =>(<p>{tag}</p>))}</p>
+                            <p>Created: {hit.created_at.slice(0,10)}</p> {/*Cuts date till 10 digits*/}
+                            {hit._tags.map(tag =>(<p>Tag: {tag}</p>))} {/*creates Tags*/}
                         </div>
                     </div>
                     </li>
