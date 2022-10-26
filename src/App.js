@@ -1,5 +1,7 @@
 import './App.css';
 import Main from './Components/Main';
+import Order from './Components/Order';
+
 
 function App() {
   return (
