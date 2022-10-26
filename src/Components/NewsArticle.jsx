@@ -4,6 +4,7 @@ import './NewsArticle.css'
 
 
 export default function NewsArticle() {
+    const [search,setSearch] = useState(null)
     // const [data, setData] = useState(0)
     // useEffect(()=>{
     //     const url = '.';
@@ -12,15 +13,26 @@ export default function NewsArticle() {
     //         .then(data => setData(data))
     // },[])
     const { hits } = myData;
-    const { hitstest } = myData;
-
-    
+function handleChange(e){
+setSearch(e.target.value)
+if(e.target.value === ""){
+    setSearch(null)
+}
+}
     // myData
 
     return (
         <>
-            {/* {hitstest.map((hit) =>(<ol><li>{hit.title}</li></ol>) )} */}
-
+        <input onChange={handleChange} type="text"></input>
+            {hits.map((hit) => (
+            hit.title.includes(`${search}`) ?
+            <p>
+            <a href={hit.url}>({hit.title})</a>
+            </p>
+        :
+        ""
+    
+            ) )}
             {hits ? <ol className='ordered_list'>
                 {hits.map((hit) => (
 
