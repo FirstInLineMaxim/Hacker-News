@@ -11,8 +11,8 @@ export default function NewsArticle() {
     //     	.then(res => res.json())
     //         .then(data => setData(data))
     // },[])
-    const { hits } = myData;
-
+    const { hits } = false;
+    // myData
 
     return (
         <>
@@ -35,7 +35,7 @@ export default function NewsArticle() {
                 ))}
             </ol>
                 :
-                <h2>Loading...</h2>
+                <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
             }
 
             {/* <h1>{chuck.value}</h1>
