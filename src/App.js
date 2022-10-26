@@ -10,6 +10,7 @@ function App() {
           <div>Header</div>
           {/* MAIN */}
           <Main/>
+          <Order/>
           {/* FOOTER */}
           <div>FOOTER</div>
 

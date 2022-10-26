@@ -5,6 +5,8 @@ export default function Orderlist(){
 return (
 <ol>
     <li>text</li>
+    <li>text</li>
+    <li>text</li>
 </ol>
 
 
