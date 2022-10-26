@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import myData from './data.json'
 import './NewsArticle.css'
+import TextField from '@mui/material/TextField';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+
 
 
 export default function NewsArticle() {
@@ -13,6 +17,8 @@ export default function NewsArticle() {
     //         .then(data => setData(data))
     // },[])
     const { hits } = myData;
+
+
     function handleChange(e) {
         setSearch(e.target.value.toLowerCase()) //SETS Input to lowercase so we can search
         if (e.target.value === "") {
@@ -23,16 +29,22 @@ export default function NewsArticle() {
 
     return (
         <>
-            <input onChange={handleChange} type="text"></input>
-            {hits.map((hit) => (
-                hit.title.toLowerCase().includes(`${search}`) ?
-                    <p>
-                        <a href={hit.url}>({hit.title})</a>
-                    </p>
-                    :
-                    ""
 
-            ))}
+            {/* MUI IMPORTED */}
+            <TextField onChange={handleChange} id="standard-basic" label="Search" variant="standard" />
+            <List >
+                {hits.map((hit) => (
+                    hit.title.toLowerCase().includes(`${search}`) ?
+                        <ListItem>
+                            <a href={hit.url}>({hit.title})</a>
+                        </ListItem>
+                        :
+                        ""
+
+                ))}
+            </List>
+            {/* MUI IMPORTED */}
+
             {hits ? <ol className='ordered_list'>
                 {hits.map((hit) => (
 
