@@ -4,6 +4,7 @@ import './NewsArticle.css'
 import TextField from '@mui/material/TextField';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
+import Autocomplete from '@mui/material/Autocomplete';
 
 
 
@@ -32,6 +33,23 @@ export default function NewsArticle() {
 
             {/* MUI IMPORTED */}
             <TextField onChange={handleChange} id="standard-basic" label="Search" variant="standard" />
+            <Autocomplete
+        freeSolo
+        id="free-solo-2-demo"
+        disableClearable
+        options={hits.map((option) => option.title)}
+        renderInput={(params) => (
+          <TextField
+          onChange={handleChange}
+            {...params}
+            label="Search input"
+            InputProps={{
+              ...params.InputProps,
+              type: 'search',
+            }}
+          />
+        )}
+      />
             <List >
                 {hits.map((hit) => (
                     hit.title.toLowerCase().includes(`${search}`) ?
