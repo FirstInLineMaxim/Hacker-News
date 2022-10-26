@@ -14,7 +14,7 @@ export default function NewsArticle() {
     // },[])
     const { hits } = myData;
 function handleChange(e){
-setSearch(e.target.value)
+setSearch(e.target.value.toLowerCase()) //SETS Input to lowercase so we can search
 if(e.target.value === ""){
     setSearch(null)
 }
@@ -25,7 +25,7 @@ if(e.target.value === ""){
         <>
         <input onChange={handleChange} type="text"></input>
             {hits.map((hit) => (
-            hit.title.includes(`${search}`) ?
+            hit.title.toLowerCase().includes(`${search}`) ?  
             <p>
             <a href={hit.url}>({hit.title})</a>
             </p>
