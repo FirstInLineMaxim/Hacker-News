@@ -16,6 +16,7 @@ export default function NewsArticle() {
 
     return (
         <>
+        {hits ? "hello": "no"}
             <ol className='ordered_list'>
                 {hits.map((hit) => (
 
