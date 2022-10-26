@@ -4,7 +4,7 @@ import './NewsArticle.css'
 
 
 export default function NewsArticle() {
-    const [search,setSearch] = useState(null)
+    const [search, setSearch] = useState(null)
     // const [data, setData] = useState(0)
     // useEffect(()=>{
     //     const url = '.';
@@ -13,26 +13,26 @@ export default function NewsArticle() {
     //         .then(data => setData(data))
     // },[])
     const { hits } = myData;
-function handleChange(e){
-setSearch(e.target.value.toLowerCase()) //SETS Input to lowercase so we can search
-if(e.target.value === ""){
-    setSearch(null)
-}
-}
+    function handleChange(e) {
+        setSearch(e.target.value.toLowerCase()) //SETS Input to lowercase so we can search
+        if (e.target.value === "") {
+            setSearch(null)
+        }
+    }
     // myData
 
     return (
         <>
-        <input onChange={handleChange} type="text"></input>
+            <input onChange={handleChange} type="text"></input>
             {hits.map((hit) => (
-            hit.title.toLowerCase().includes(`${search}`) ?  
-            <p>
-            <a href={hit.url}>({hit.title})</a>
-            </p>
-        :
-        ""
-    
-            ) )}
+                hit.title.toLowerCase().includes(`${search}`) ?
+                    <p>
+                        <a href={hit.url}>({hit.title})</a>
+                    </p>
+                    :
+                    ""
+
+            ))}
             {hits ? <ol className='ordered_list'>
                 {hits.map((hit) => (
 
@@ -53,8 +53,8 @@ if(e.target.value === ""){
             </ol>
                 :
                 <div className='center-loading'>
-                <span class="loader"></span>
-                <h2>Loading...</h2></div>
+                    <span class="loader"></span>
+                    <h2>Loading...</h2></div>
             }
 
 
