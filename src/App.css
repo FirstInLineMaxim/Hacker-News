@@ -11,7 +11,7 @@ body{
 }
 .container{
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-columns: 2fr 8fr 2fr;
 }
 .col-8{
   background-color: #f6f6ef;

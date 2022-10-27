@@ -1,3 +1,7 @@
+.SEE{
+  background-color: red;
+  height: 2rem;
+}
 .Article-container{
     background-color:#f6f5f0;
     display:flex;
