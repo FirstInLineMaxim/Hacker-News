@@ -21,6 +21,9 @@ height: fit-content;
     gap:2rem;
     color:grey;
 }
+.ordered_list{
+  font-size: small;
+}
 .ordered_list li{
     counter-increment: li;
   display: list-item;

@@ -1,0 +1,30 @@
+.top-flex{
+    display:flex;
+    background-color:#ff6600 ;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    height: 2rem;
+   
+    gap: 1rem;
+    align-items: center;
+}
+.left img{
+    border: 0.1rem solid white;
+}
+.left a{
+    text-decoration: none;
+    color: black;
+}
+
+.left p{
+    font-weight: 700;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+
+}

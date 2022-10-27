@@ -5,7 +5,7 @@ import NewsArticle from './NewsArticle';
 export default function Main() {
     return (
        <>
-            <div className='container'>
+            <div>
                 {/* TODAY NEWS */}
                 <div><NewsArticle/></div>
                 {/* TOP NEWS */}

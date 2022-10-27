@@ -32,8 +32,7 @@ export default function NewsArticle() {
         <>
 
             {/* MUI IMPORTED */}
-            <TextField onChange={handleChange} id="standard-basic" label="Search" variant="standard" />
-            <Autocomplete
+           {hits && <Autocomplete
                 freeSolo
                 id="free-solo-2-demo"
                 disableClearable
@@ -49,8 +48,8 @@ export default function NewsArticle() {
                         }}
                     />
                 )}
-            />
-            <List >
+            /> }
+            {hits && <List >
                 {hits.map((hit) => (
                     hit.title.toLowerCase().includes(`${search}`) ?
                         <ListItem>
@@ -60,7 +59,7 @@ export default function NewsArticle() {
                         ""
 
                 ))}
-            </List>
+            </List>}
             {/* MUI IMPORTED */}
 
             {hits ? <ol className='ordered_list'>
