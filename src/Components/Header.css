@@ -3,16 +3,18 @@
     background-color:#ff6600 ;
     justify-content: space-between;
     align-items: center;
+    font-size: smaller;
 }
 .left{
     display: flex;
-    height: 2rem;
-   
-    gap: 1rem;
+    height: 1.5rem;
+   padding-left: 1px;
+    gap: 0.5rem;
     align-items: center;
 }
 .left img{
     border: 0.1rem solid white;
+    width: 18px;
 }
 .left a{
     text-decoration: none;

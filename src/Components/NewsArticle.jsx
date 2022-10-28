@@ -94,32 +94,7 @@ export default function NewsArticle() {
             </ol>
 
 
-            {/* {hits ? <ol className='ordered_list'>
-                {hits.map((hit) => (
-
-                    <li><div className='Article-container'>
-                        <div className='title-url'>
-                            <h3>{hit.title}</h3>
-                            <a href={hit.url}>({hit.url})</a>
-                        </div>
-                        <div className='description'>
-                            <p>Author: {hit.author}</p>
-                            <p>Created: {hit.created_at.slice(0, 10)}</p>
-                            {hit._tags.map(tag => (<p>Tag: {tag}</p>))}                  creates Tags
-                        </div>
-                    </div>
-                    </li>
-
-                ))}
-            </ol>
-                :
-                <div className='center-loading'>
-                    <span class="loader"></span>
-                    <h2>Loading...</h2></div>
-            } */}
-
-            <button value={false} onClick={handleClick}>0-50</button>
-
+            <button value={false} onClick={()=> setTopObj(false)}>false</button>
             <button value={0} onClick={handleClick}>0-50</button>
             <button value={50}  onClick={handleClick}>50-100</button>
             <button value={100} onClick={handleClick}>100-150</button>
