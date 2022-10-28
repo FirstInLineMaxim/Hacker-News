@@ -13,7 +13,6 @@ function App() {
           {/* MAIN */}
           <Main />
           {/* FOOTER */}
-          <Header />
         </div>
         <div className="col-2"></div>
       </div>
