@@ -13,21 +13,28 @@ import Autocomplete from '@mui/material/Autocomplete';
 
 
 export default function NewsArticle() {
-    const objct = []
+    // const objct = []
+    // const [top500, setTop500] = useState()
+    // useEffect(() => {
+    //     axios.get(`https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty`)
+    //         .then(res => res.data)
+    //         .then(data => setTop500((prev) => ([...prev, data])))
+    // }, [])
 
     //Array with the objects inside of the top 500 fetch 
     const [topObj, setTopObj] = useState([])
     // the top 500 id fetch
     useEffect(() => {
+
         top500.map((id) => axios.get(`https://hacker-news.firebaseio.com/v0/item/${id}.json?print=pretty`).then(res => res.data).then(data => setTopObj((prev) => ([...prev, data]))))
     }, [])
 
     //Slice to get top 100 from 500 
-    const top99 = topObj.slice(0, 99)
-    const top199 = topObj.slice(100, 199)
-    const top299 = topObj.slice(200, 299)
-    const top399 = topObj.slice(300, 399)
-    const top499 = topObj.slice(400, 499)
+    // const top99 = topObj.slice(0, 99)
+    // const top199 = topObj.slice(100, 199)
+    // const top299 = topObj.slice(200, 299)
+    // const top399 = topObj.slice(300, 399)
+    // const top499 = topObj.slice(400, 499)
 
     const [search, setSearch] = useState(null)
     function handleChange(e) {
@@ -90,16 +97,16 @@ export default function NewsArticle() {
                 </li>)) : <div className='center-loading'>
                     <span class="loader"></span>
                     <h2>Loading...</h2></div>
-            }
+                }
             </ol>
 
 
-            <button value={false} onClick={()=> setTopObj(false)}>false</button>
+            <button value={false} onClick={() => setTopObj(false)}>false</button>
             <button value={0} onClick={handleClick}>0-50</button>
-            <button value={50}  onClick={handleClick}>50-100</button>
+            <button value={50} onClick={handleClick}>50-100</button>
             <button value={100} onClick={handleClick}>100-150</button>
             <button value={150} onClick={handleClick}>150-200</button>
-            <button value={200}  onClick={handleClick}>200-250</button>
+            <button value={200} onClick={handleClick}>200-250</button>
 
         </>
     )
