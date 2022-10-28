@@ -89,10 +89,11 @@ export default function NewsArticle() {
                         <a href={ele.url}>({ele.url})</a>
                     </div>
                     <div className='Description'>
-                        <p>Author: {ele.by}</p>
+                        <p>{ele.score} points</p>
+                        <p>by: {ele.by}</p>
                         <p>Created at :{Date(ele.time*1000).slice(3,15)}</p>
-                        <p>Type: {ele.type}</p>
-                        {console.log()}
+                        <p>{ele.kids.length} comments</p>
+                        {console.log(ele)}
                     </div>
                 </div>
                 </li>)) : <div className='center-loading'>
