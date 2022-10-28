@@ -13,20 +13,14 @@ import Autocomplete from '@mui/material/Autocomplete';
 
 
 export default function NewsArticle() {
-    // const objct = []
-    // const [top500, setTop500] = useState()
-    // useEffect(() => {
-    //     axios.get(`https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty`)
-    //         .then(res => res.data)
-    //         .then(data => setTop500((prev) => ([...prev, data])))
-    // }, [])
-
     //Array with the objects inside of the top 500 fetch 
     const [topObj, setTopObj] = useState([])
+
     // the top 500 id fetch
     useEffect(() => {
-
-        top500.map((id) => axios.get(`https://hacker-news.firebaseio.com/v0/item/${id}.json?print=pretty`).then(res => res.data).then(data => setTopObj((prev) => ([...prev, data]))))
+        top500.map((id) => axios.get(`https://hacker-news.firebaseio.com/v0/item/${id}.json?print=pretty`)
+        .then(res => res.data)
+        .then(data => setTopObj((prev) => ([...prev, data]))))
     }, [])
 
     //Slice to get top 100 from 500 
