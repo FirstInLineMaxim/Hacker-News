@@ -82,10 +82,17 @@ export default function NewsArticle() {
             {/* MUI IMPORTED */}
             {/* <button onClick={consolees}>console.log</button> */}
             <ol className='ordered_list'>
-                {display !== [] ? display.map((ele) => (<li><div className='Article-container'>
+                {display !== [] ? display.map((ele) => (
+                <li key={ele.id}><div className='Article-container'>
                     <div className='title-url'>
                         <h3>{ele.title}</h3>
                         <a href={ele.url}>({ele.url})</a>
+                    </div>
+                    <div className='Description'>
+                        <p>Author: {ele.by}</p>
+                        <p>Created at :{Date(ele.time*1000).slice(3,15)}</p>
+                        <p>Type: {ele.type}</p>
+                        {console.log()}
                     </div>
                 </div>
                 </li>)) : <div className='center-loading'>
