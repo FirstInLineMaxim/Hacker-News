@@ -1,16 +1,21 @@
-import './App.css';
-import Main from './Components/Main';
+import "./App.css";
+import Main from "./Components/Main";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <>
+      <div className="container">
+        <div className="col-2"></div>
+        <div className="col-8">
           {/* HEADER */}
-          <div>Header</div>
+          <Header />
           {/* MAIN */}
-          <Main/>
+          <Main />
           {/* FOOTER */}
-          <div>FOOTER</div>
-
+        </div>
+        <div className="col-2"></div>
+      </div>
     </>
   );
 }

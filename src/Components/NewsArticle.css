@@ -1,0 +1,79 @@
+.SEE{
+  background-color: red;
+  height: 2rem;
+}
+.Article-container{
+    background-color:#f6f5f0;
+    display:flex;
+    flex-direction: column;
+}
+
+.title-url{
+    display: flex;
+    gap:1rem;
+    align-items: baseline;
+}
+
+.title-url a{
+text-decoration: none;
+color: grey;
+height: fit-content;
+}
+
+.description{
+    display: flex;
+    gap:2rem;
+    color:grey;
+}
+.ordered_list{
+  font-size: small;
+}
+.ordered_list li{
+    counter-increment: li;
+  display: list-item;
+}
+.ordered_list li::marker{
+    display: list-item;
+  content: "#" counter(li) " ";
+  color: lightsalmon;
+  font-weight: bold;
+}
+
+.Loading{
+  text-align: center;
+}
+
+
+.center-loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* IMPORTED LOADING  https://loading.io/css/*/
+.loader {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(0deg, rgba(255, 61, 0, 0.2) 33%, #ff3d00 100%);
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #263238;
+}
+@keyframes rotation {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg)}
+} 
