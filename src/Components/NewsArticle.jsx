@@ -38,19 +38,17 @@ export default function NewsArticle() {
         }
     }
 
-    const [display, setDisplay] = useState([])
+    const [display, setDisplay] = useState(false)
 
     function handleClick(e) {
         const value = e.target.value
-        setDisplay(topObj.slice(value))
-        console.log(value)
-
-
+            setDisplay(topObj.slice(value-30,value))
+            e.target.innerText = "you are here"
     }
     return (
         <>
             {/* MUI IMPORTED */}
-            {topObj &&
+            {/* {topObj &&
                 <Autocomplete
                     freeSolo
                     id="free-solo-2-demo"
@@ -78,17 +76,23 @@ export default function NewsArticle() {
                         ""
 
                 ))}
-            </List>}
+            </List>} */}
             {/* MUI IMPORTED */}
-            {/* <button onClick={consolees}>console.log</button> */}
             <ol className='ordered_list'>
-                {display !== [] ? display.map((ele) => (<li><div className='Article-container'>
+                {display !== false ? display.map((ele) => (
+                <li key={ele.id}><div className='Article-container'>
                     <div className='title-url'>
-                        <h3>{ele.title}</h3>
+                        <p>{ele.title}</p>
                         <a href={ele.url}>({ele.url})</a>
                     </div>
+                    <div className='Description'>
+                        <p>{ele.score} points by:<a href={`https://hacker-news.firebaseio.com/v0/user/${ele.by}.json?print=pretty`}>{ele.by}</a> Created at :{Date(ele.time*1000).slice(3,15)}</p>
+                    {console.log(ele)}
+                    </div>
                 </div>
-                </li>)) : <div className='center-loading'>
+                </li>)) 
+                : 
+                <div className='center-loading'>
                     <span class="loader"></span>
                     <h2>Loading...</h2></div>
                 }
@@ -96,11 +100,11 @@ export default function NewsArticle() {
 
 
             <button value={false} onClick={() => setTopObj(false)}>false</button>
-            <button value={0} onClick={handleClick}>0-50</button>
-            <button value={50} onClick={handleClick}>50-100</button>
-            <button value={100} onClick={handleClick}>100-150</button>
-            <button value={150} onClick={handleClick}>150-200</button>
-            <button value={200} onClick={handleClick}>200-250</button>
+            <button value={30} onClick={handleClick}>30</button>
+            <button value={60} onClick={handleClick}>60</button>
+            <button value={90} onClick={handleClick}>90</button>
+            <button value={120} onClick={handleClick}>120</button>
+            <button value={150} onClick={handleClick}>150</button>
 
         </>
     )

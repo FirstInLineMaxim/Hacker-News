@@ -10,16 +10,30 @@
 
 .title-url{
     display: flex;
-    gap:1rem;
+    gap:0.3rem;
     align-items: baseline;
+    height: 2rem;
 }
 
+.title-url p{
+margin: 0;
+}
 .title-url a{
+  font-size: 0.75em;
 text-decoration: none;
 color: grey;
 height: fit-content;
 }
-
+.Description{
+  display:flex;
+  color: #828282;
+  height: 1rem;
+  padding: 1rem;
+}
+.Discription a{
+  color: red;
+  text-decoration: none;
+}
 .description{
     display: flex;
     gap:2rem;
