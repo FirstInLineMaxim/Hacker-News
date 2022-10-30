@@ -1,4 +1,18 @@
-* {
+/* * {
   border: 1px solid black;
-  padding: 1%;
+  padding:1px;
+}
+
+ */
+
+body{
+  background-color: #ffffff;
+  padding-top: 0.5rem;
+}
+.container{
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+}
+.col-8{
+  background-color: #f6f6ef;
 }
