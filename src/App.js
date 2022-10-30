@@ -25,10 +25,9 @@ function App() {
         <div className="col-2"></div>
         <div className="col-8">
       {/* HEADER */}
-      <div>Header</div>
-      <Header />
+      <div><Header /></div>
+      
       {/* MAIN */}
-      <div>Main</div>
       <Main />
       {/* FOOTER */}
       <SearchBar search={search} setSearchResults={setSearchResults}/>
