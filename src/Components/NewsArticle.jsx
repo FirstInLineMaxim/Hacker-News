@@ -48,7 +48,7 @@ export default function NewsArticle() {
     return (
         <>
             {/* MUI IMPORTED */}
-            {topObj &&
+            {/* {topObj &&
                 <Autocomplete
                     freeSolo
                     id="free-solo-2-demo"
@@ -76,7 +76,7 @@ export default function NewsArticle() {
                         ""
 
                 ))}
-            </List>}
+            </List>} */}
             {/* MUI IMPORTED */}
             <ol className='ordered_list'>
                 {display !== false ? display.map((ele) => (
