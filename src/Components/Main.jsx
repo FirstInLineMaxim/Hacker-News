@@ -6,10 +6,7 @@ export default function Main() {
     return (
        <>
             <div>
-                {/* TODAY NEWS */}
                 <div><NewsArticle/></div>
-                {/* TOP NEWS */}
-                <div>Top News</div>
             </div>
        </>
     );
