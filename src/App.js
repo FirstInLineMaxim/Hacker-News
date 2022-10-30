@@ -29,9 +29,9 @@ function App() {
       <Header />
       {/* MAIN */}
       <div>Main</div>
-      <SearchBar search={search} setSearchResults={setSearchResults}/>
       <Main />
       {/* FOOTER */}
+      <SearchBar search={search} setSearchResults={setSearchResults}/>
       </div>
         <div className="col-2"></div>
       </div>
