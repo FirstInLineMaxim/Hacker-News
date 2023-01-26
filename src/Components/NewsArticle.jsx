@@ -19,8 +19,8 @@ export default function NewsArticle() {
     // the top 500 id fetch
     useEffect(() => {
         top500.map((id) => axios.get(`https://hacker-news.firebaseio.com/v0/item/${id}.json?print=pretty`)
-        .then(res => res.data)
-        .then(data => setTopObj((prev) => ([...prev, data]))))
+            .then(res => res.data)
+            .then(data => setTopObj((prev) => ([...prev, data]))))
     }, [])
 
     //Slice to get top 100 from 500 
@@ -42,8 +42,8 @@ export default function NewsArticle() {
 
     function handleClick(e) {
         const value = e.target.value
-            setDisplay(topObj.slice(value-30,value))
-            e.target.innerText = "you are here"
+        setDisplay(topObj.slice(value - 30, value))
+        e.target.innerText = "you are here"
     }
     return (
         <>
@@ -80,21 +80,21 @@ export default function NewsArticle() {
             {/* MUI IMPORTED */}
             <ol className='ordered_list'>
                 {display !== false ? display.map((ele) => (
-                <li key={ele.id}><div className='Article-container'>
-                    <div className='title-url'>
-                        <p>{ele.title}</p>
-                        <a href={ele.url}>({ele.url})</a>
+                    <li key={ele.id}><div className='Article-container'>
+                        <div className='title-url'>
+                            <p>{ele.title}</p>
+                            <a href={ele.url}>({ele.url})</a>
+                        </div>
+                        <div className='Description'>
+                            <p>{ele.score} points by:<a href={`https://hacker-news.firebaseio.com/v0/user/${ele.by}.json?print=pretty`}>{ele.by}</a> Created at :{Date(ele.time * 1000).slice(3, 15)}</p>
+                            {console.log(ele)}
+                        </div>
                     </div>
-                    <div className='Description'>
-                        <p>{ele.score} points by:<a href={`https://hacker-news.firebaseio.com/v0/user/${ele.by}.json?print=pretty`}>{ele.by}</a> Created at :{Date(ele.time*1000).slice(3,15)}</p>
-                    {console.log(ele)}
-                    </div>
-                </div>
-                </li>)) 
-                : 
-                <div className='center-loading'>
-                    <span class="loader"></span>
-                    <h2>Loading...</h2></div>
+                    </li>))
+                    :
+                    <div className='center-loading'>
+                        <span class="loader"></span>
+                        <h2>Loading...</h2></div>
                 }
             </ol>
 
